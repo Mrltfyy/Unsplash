@@ -171,7 +171,7 @@ body {
     position: absolute;
     height: 593px;
     top: 116px;
-    background-image: url("../img/背景.webp");
+    background-image: url("./images/1.jpg");
     background-size: cover;
     margin-bottom: 48px;
   }
