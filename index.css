@@ -1,6 +1,5 @@
 body {
     height: 3000px;
-    position: absolute;
 }
 *{
     padding: 0;
@@ -80,6 +79,7 @@ header .nav .nav-l .UP {
     border: 1px solid #eee;
     font-size: 15px;
     border-radius: 50px;
+    outline: none;
 }
 .nav-c {
     width: 180px;
@@ -94,7 +94,7 @@ header .nav .nav-l .UP {
 .nav-c a {
   text-decoration: none;
   color: #767676;
-  font-weight: 400;
+  font-weight: 400; 
   display: inline-block;
 
 }
@@ -202,10 +202,135 @@ span.Jo {
 }
 .b-c {
     position: absolute;
-    top: 62px;
     left: 0;
     background-image: url("./images/1.jpg");
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 600px;
+}
+.b-2c {
+  height: 250px;
+  width: 860px;
+  margin: 150px 360px 150px 360px;
+}
+.b-2c span {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  padding: 20px 0px ;
+}
+.b-3c h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 5px 0px ;
+}
+.b-3c p {
+  color: #fff;
+  font-size: 18px;
+}
+.b-4c {
+  width: 860px;
+  height: 54px;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.loupe2 {
+  display: inline;
+  position: relative;
+  top: -35px;
+  left: 10px;
+}
+.b-4c input {
+  width: 828px;
+  height: 54px;
+  border-radius: 9px;
+  border: none;
+  padding-left: 20px;
+  margin-left: 30px;
+  font-size: 15px;
+  outline: none;
+}
+.b-5c {
+  width: 830px;
+  margin-top: 15px;
+
+}
+
+.b-5c ul li {
+  list-style: none;
+  display: inline-block;
+  color: #fff;
+}
+.b-5c ul li a {
+  text-decoration: none;
+  color: hsla(0,0%,100%,.8)
+}
+.b-5c ul li a:hover {
+  color: #fff;
+}
+.b-c-b {
+  width: 1550px;
+}
+.b-c-b-l {
+  display: inline-block;
+  color: #eee;
+  margin-right: 340px;
+}
+.b-c-b-l span {
+  font-size: 14px;
+}
+.b-c-b-l span a {
+  color: #fff;  
+  text-decoration: none;
+}
+.b-c-b-c {
+  display: inline-block;
+  color: #eee;
+  margin-right: 340px;
+
+}
+.b-c-b-c span {
+  font-size: 14px;
+}
+.b-c-b-c span a {
+  color: #fff;  
+  text-decoration: none;
+}
+.b-c-b-r {
+  display: inline-block;
+  color: #eee;
+  
+}
+.b-c-b-r span {
+  font-size: 14px;
+}
+.b-c-b-r span a {
+  text-decoration: none;
+}
+.pictures {
+  width: 100%;
+  background-color: red;
+  display: inline-block;
+  height: 3000px; 
+
+}
+.p-1 {
+  width: 30%;
+  height: 3000px;
+  display: inline-block;
+  background-color: yellow;
+}
+.p-2 {
+  width: 30%;
+  height: 3000px;
+  display: inline-block;
+  background-color: green;
+}
+.p-3 {
+  width: 30%;
+  height: 3000px;
+  display: inline-block;
+  background-color: blue ;
 }
