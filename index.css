@@ -322,23 +322,59 @@ span.Jo {
   width: 33%;
   height: 3000px;
   display: inline-block;
-  background-color: #090;
+  margin: 0.9%;
 }
-.p-1 div {
+.add {
+  width: 20px;
+  height: 20px;
+}
+.ax {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.xz {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+.ADD {
+  width: 100px;
+  height: 32px;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.same {
+  width: 40px;
+  height: 32px;
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+.p-1 a {
+  color: #767676;
+  text-decoration: none;
+}
+.p-1 a:hover {
+  color: #eee;
+}
+/* .p-1 div {
   width: 100%;
   height: 600px;
   display: inline-block;
 }
 .p-1 div a img {
-  width: 100%;
-  height: 600px;
+  width: 30px;
+  height: 30px;
   display: inline-block;
-}
+} */
 .p-2 {
   width: 30%;
   height: 3000px;
   display: inline-block;
-  background-color: #601;
+  margin: 0.9%;
 }
 .p-2 div {
   width: 100%;
@@ -354,7 +390,7 @@ span.Jo {
   width: 30%;
   height: 3000px;
   display: inline-block;
-  background-color: #767676;
+  margin: 0.9%;
 }
 .p-3 div {
   width: 100%;
